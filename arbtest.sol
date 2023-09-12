@@ -7,7 +7,7 @@ contract arbtest is ERC20 {
 
     uint256 public immutable MAX = 20000000000 ether;
 
-    constructor() ERC20("MetaX", "MetaX") {
+    constructor() ERC20("arbtest", "arbtest") {
         _mint(msg.sender, MAX);
     }
 
